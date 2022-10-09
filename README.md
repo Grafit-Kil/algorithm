@@ -23,6 +23,6 @@
 # Sort
 | Path | Description |
 | - | - | 
-| [Selection Sort](sort/seleciton_sort.cpp) | Seleciton sort. |
+| [Selection Sort](sort/selection_sort.cpp) | Seleciton sort. |
 |||
 
