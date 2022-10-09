@@ -1,4 +1,4 @@
-# Algebra
+# Geometry
 
 | Path | Description |
 | - | - | 
@@ -17,12 +17,12 @@
 
 | Path | Description |
 | - | - | 
-| [Standart Deviation](statistics/standart_deviation) | In statistics, the standard deviation is a measure of the amount of variation or dispersion of a set of values. |
+| [Standart Deviation](statistics/standard_deviation.cpp) | In statistics, the standard deviation is a measure of the amount of variation or dispersion of a set of values. |
 |||
 
 # Sort
 | Path | Description |
 | - | - | 
-| [Selection Sort](sort/selection_sort.cpp) | Seleciton sort. |
+| [Selection Sort](sort/selection_sort.cpp) | In computer science, selection sort is an in-place comparison sorting algorithm. It has an O(n^2) time complexity. |
+| [Radix Sort](sort/radix_sort.cpp) | In computer science, radix sort is a non-comparative sorting algorithm. It avoids comparison by creating and distributing elements into buckets according to their radix. |
 |||
-
