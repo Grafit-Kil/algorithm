@@ -20,3 +20,9 @@
 | [Standart Deviation](statistics/standart_deviation) | In statistics, the standard deviation is a measure of the amount of variation or dispersion of a set of values. |
 |||
 
+# Sort
+| Path | Description |
+| - | - | 
+| [Selection Sort](sort/seleciton_sort.cpp) | Seleciton sort. |
+|||
+
