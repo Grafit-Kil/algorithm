@@ -2,7 +2,7 @@
 #include <vector>
 
 int step = 1;
-void print(std::vector<int> &val)
+void print(const std::vector<int> &val)
 {
     std::cout << "\nStep " << step << "\nValues => ";
     step++;
@@ -12,7 +12,7 @@ void print(std::vector<int> &val)
     }
 }
 
-void printDigit(std::vector<std::vector<int>> &dig)
+void printDigit(const std::vector<std::vector<int>> &dig)
 {
     std::cout << "\nSorted => ";
     for (auto &i : dig)
