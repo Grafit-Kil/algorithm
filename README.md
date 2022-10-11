@@ -2,7 +2,7 @@
 
 | Path | Description |
 | - | - | 
-| [Jarvis Algorithm](algebra/jarvis) |It is an algorithm for calculating the convex body of a given set of points. |
+| [Graham Scan Algorithm(Convex Hull)](geometry/convexHull/graham_scan.cpp) |It is an algorithm for calculating the convex body of a given set of points. |
 |||
 
 # Mathematics

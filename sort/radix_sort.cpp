@@ -1,9 +1,11 @@
 #include <iostream>
 #include <vector>
 
-int step = 1;
-void print(const std::vector<int> &val)
+template <typename T>
+void print(const std::vector<T> &val)
 {
+    static int step = 1;
+
     std::cout << "\nStep " << step << "\nValues => ";
     step++;
     for (auto &i : val)
@@ -12,7 +14,8 @@ void print(const std::vector<int> &val)
     }
 }
 
-void printDigit(const std::vector<std::vector<int>> &dig)
+template <typename T>
+void printDigit(const std::vector<std::vector<T>> &dig)
 {
     std::cout << "\nSorted => ";
     for (auto &i : dig)
@@ -23,11 +26,11 @@ void printDigit(const std::vector<std::vector<int>> &dig)
         }
     }
 }
-
-void radix_sort(std::vector<int> &val, std::vector<std::vector<int>> &dig)
+template <typename T>
+void radix_sort(std::vector<T> &val, std::vector<std::vector<T>> &dig)
 {
     bool digit_control = true;
-    int pw = 1;
+    long int pw = 1;
     while (digit_control)
     {
 
@@ -47,7 +50,7 @@ void radix_sort(std::vector<int> &val, std::vector<std::vector<int>> &dig)
             }
         }
 
-        for (int i = 0; i < val.size(); i++)
+        for (size_t i = 0; i < val.size(); i++)
         {
             dig[(val[i] / pw) % 10].push_back(val[i]);
         }
