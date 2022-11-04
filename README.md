@@ -13,11 +13,12 @@
 | [Range Prime Number](math/primeNumber/range_prime_number.cpp) | Displays all prime numbers starting with N digits and X. |
 |||
 
-# Statistics
+
+# Search
 
 | Path | Description |
 | - | - | 
-| [Standart Deviation](statistics/standard_deviation.cpp) | In statistics, the standard deviation is a measure of the amount of variation or dispersion of a set of values. |
+| [Linear Search](search/linear_search.cpp) | Linear search or sequential search is a method used to find an item in a list. |
 |||
 
 # Sort
@@ -25,4 +26,12 @@
 | - | - | 
 | [Selection Sort](sort/selection_sort.cpp) | In computer science, selection sort is an in-place comparison sorting algorithm. It has an O(n^2) time complexity. |
 | [Radix Sort](sort/radix_sort.cpp) | In computer science, radix sort is a non-comparative sorting algorithm. It avoids comparison by creating and distributing elements into buckets according to their radix. |
+|||
+
+
+# Statistics
+
+| Path | Description |
+| - | - | 
+| [Standart Deviation](statistics/standard_deviation.cpp) | In statistics, the standard deviation is a measure of the amount of variation or dispersion of a set of values. |
 |||
