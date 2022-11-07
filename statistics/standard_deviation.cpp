@@ -24,7 +24,8 @@ T variance(const std::vector<T> &set, T avg)
     return v / set.size();
 }
 
-auto standard_deviation(auto varyans)
+template <typename T>
+auto standard_deviation(T varyans)
 {
 
     return std::sqrt(varyans);
