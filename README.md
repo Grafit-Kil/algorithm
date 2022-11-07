@@ -19,7 +19,7 @@
 | Path | Description |
 | - | - | 
 | [Linear Search](search/linear_search.cpp) | Linear search or sequential search is a method used to find an item in a list. |
-| [Linear Search](search/linear_search.cpp) | It is a search algorithm that finds the location of a target value in a sorted array. Each time it is compared to the median of the array.|
+| [Binary Search](search/binary_search.cpp) | It is a search algorithm that finds the location of a target value in a sorted array. Each time it is compared to the median of the array.|
 |||
 
 # Sort
